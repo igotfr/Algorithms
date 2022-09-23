@@ -7,7 +7,7 @@ impl Solution {
 
         let mut reverted_number = 0;
         while x > reverted_number {
-            reverted_number *= 10 + x % 10;
+            reverted_number = reverted_number * 10 + x % 10;
             x /= 10;
         }
 
