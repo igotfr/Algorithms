@@ -9,23 +9,21 @@ A **happy number** is a number defined by the following process:
 Return `true` *if* `n` *is a happy number, and* `false` *if not*.
 
 **Example 1:**
-
-<code style="white-space: break-spaces;">
-  <strong>Input:</strong> n = 19
-  
-  <strong>Output:</strong> true
-  <strong>Explanation:</strong>
-  1² + 9² = 82
-  8² + 2² = 68
-  6² + 8² = 100
-  1² + 0² + 0² = 1
-</code>
+<pre>
+<strong>Input:</strong> n = 19  
+<strong>Output:</strong> true
+<strong>Explanation:</strong>
+1² + 9² = 82
+8² + 2² = 68
+6² + 8² = 100
+1² + 0² + 0² = 1
+</pre>
 
 **Example 2:**
-```
-**Input:** n = 2
-Output: false
-```
+<pre>
+<strong>Input:</strong> n = 2
+<strong>Output:</strong> false
+</pre>
 
 **Constraints:**
-- <code>1 <= n <= 231 - 1</code>
+- <code>1 <= n <= 2<sup>31</sup> - 1</code>
