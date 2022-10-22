@@ -1,5 +1,5 @@
-// Iterative
 fn sum_of_squared_digits(mut n: i32) -> i32 {
+    // Iterative
     let mut sum = 0;
     while n > 0 {
         let m = n % 10;
@@ -9,8 +9,8 @@ fn sum_of_squared_digits(mut n: i32) -> i32 {
     sum
 }
 
-// Functional
 /*fn sum_of_squared_digits(n: i32) -> i32 {
+    // Functional
     n.to_string().chars().fold(0, |sum: u32, c: char| -> u32 {
         sum + c.to_digit(10).unwrap().pow(2)
     }) as i32
