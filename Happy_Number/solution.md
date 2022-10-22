@@ -118,7 +118,7 @@ Think about what would happen if you had a number with *1 million* digits in it.
 ### Intuition
 The chain we get by repeatedly calling `getNext(n)` is an *implicit* **LinkedList**. *Implicit* means we don't have actual LinkedNode's and pointers, but the data does still form a LinkedList structure. The starting number is the head "node" of the list, and all the other numbers in the chain are nodes. The next pointer is obtained with our `getNext(n)` function above.
 
-Recognizing that we actually have a LinkedList, it turns out that this question is almost the same as another Leetcode problem, detecting if a linked list has a cycle. As @Freezen has pointed out, we can therefore use Floyd's Cycle-Finding Algorithm here. This algorithm is based on 2 runners running around a circular race track, a fast runner and a slow runner. In reference to a famous fable, many people call the slow runner the "tortoise" and the fast runner the "hare".
+Recognizing that we actually have a LinkedList, it turns out that this question is almost the same as another Leetcode problem, [detecting if a linked list has a cycle](https://leetcode.com/problems/linked-list-cycle/). As @Freezen [has pointed out](https://leetcode.com/problems/happy-number/solutions/56917/My-solution-in-C(-O(1)-space-and-no-magic-math-property-involved-)/), we can therefore use Floyd's Cycle-Finding Algorithm here. This algorithm is based on 2 runners running around a circular race track, a fast runner and a slow runner. In reference to a famous fable, many people call the slow runner the "tortoise" and the fast runner the "hare".
 
 Regardless of where the tortoise and hare start in the cycle, they are guaranteed to eventually meet. This is because the hare moves one node closer to the tortoise (in their direction of movement) each step.
 
@@ -256,7 +256,7 @@ Time complexity : `O(log n)`. Same as above.
 Space complexity : `O(1)`. We are not maintaining any history of numbers we've seen. The hardcoded HashSet is of a constant size.
 
 ### An Alternative Implementation
-Thanks @Manky for sharing this alternative with us!
+Thanks [@Manky](https://leetcode.com/manky/) for sharing this alternative with us!
 
 This approach was based on the idea that all numbers either end at `1` or enter the cycle `{4, 16, 37, 58, 89, 145, 42, 20}`, wrapping around it infinitely.
 
