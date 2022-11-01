@@ -21,7 +21,7 @@ use std::collections::HashSet;
 impl Solution {
     pub fn is_happy(mut n: i32) -> bool {
         // Detect Cycles with a HashSet
-        // Version 1
+        // Iterative 1
         /*let mut seen: HashSet<i32> = HashSet::from([n]);
 
         while sum_of_squared_digits(n) != 1 {
@@ -30,7 +30,7 @@ impl Solution {
         }
         true*/
 
-        // Version 2
+        // Iterative 2
         /*let mut seen: HashSet<i32> = HashSet::new();
 
         while n != 1 && !seen.contains(&n) {
