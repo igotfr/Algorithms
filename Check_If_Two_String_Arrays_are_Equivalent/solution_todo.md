@@ -57,12 +57,12 @@ class Solution {
 Here `N` is the number of strings in the list and `K` is the maximum length of a string in it.
 
 - Time complexity: `O(N ∗ K)`
-
-We iterate over each string in the arrays to append them. This cost us `O(N * K)` as we traversed over each character of the string to perform an append operation.
-In the end, the comparison between the two strings also takes `O(N * K)` time.
-Hence, the total time complexity is equal to `O(N * K)`.
+    - We iterate over each string in the arrays to append them. This cost us `O(N * K)` as we traversed over each character of the string to perform an append operation.
+    - In the end, the comparison between the two strings also takes `O(N * K)` time.
+    - Hence, the total time complexity is equal to `O(N * K)`.
 - Space complexity: `O(N ∗ K)`
-We need to have two strings to store the strings represented by the arrays. Therefore, the total space complexity is equal to `O(N * K)`.
+
+    We need to have two strings to store the strings represented by the arrays. Therefore, the total space complexity is equal to `O(N * K)`.
 
 ## Approach 2: Two Pointers
 ### Intuition
@@ -77,15 +77,15 @@ We can keep two pointers, one pointing to the first character of the first strin
 
 3. While we still have strings to iterate over in both the lists:
 
-If the character at `string1Pointer` in the string at index `word1Pointer` in the list `word1` isn't equal to the character at `string2Pointer` in the string at index `word2Pointer` in the list `word2`, then return false. Otherwise, increment both the string pointers i.e., `string1Pointer` and `string2Pointer` to check the next characters.
+    - If the character at `string1Pointer` in the string at index `word1Pointer` in the list `word1` isn't equal to the character at `string2Pointer` in the string at index `word2Pointer` in the list `word2`, then return false. Otherwise, increment both the string pointers i.e., `string1Pointer` and `string2Pointer` to check the next characters.
 
-If the pointer `string1Pointer` has reached the end of string then reset it to zero and increment the word pointer `word1Pointer`.
+    - If the pointer `string1Pointer` has reached the end of string then reset it to zero and increment the word pointer `word1Pointer`.
 
-If the pointer `string2Pointer` has reached the end of string then reset it to zero and increment the word pointer `word2Pointer`.
+    - If the pointer `string2Pointer` has reached the end of string then reset it to zero and increment the word pointer `word2Pointer`.
 
 4. Return true if the `word1Pointer` and `word2Pointer` has reached the end of array. This is important as it might happen that one of the list has no more strings but the other one still has some and in that case we must return false.
 
-Current
+https://leetcode.com/c1b8271a-d0e8-43c2-b01e-215b454c93cb
 
 
 ### Implementation
@@ -165,8 +165,8 @@ Here `N` is the number of strings in the list and `K` is the maximum length of a
 
 - Time complexity: `O(N ∗ K)`
 
-We are iterating over each character of every string present in the given lists and hence the total time complexity will be equal to `O(N ∗ K)`.
+    We are iterating over each character of every string present in the given lists and hence the total time complexity will be equal to `O(N ∗ K)`.
 
 - Space complexity: `O(1)`
 
-We don't require any extra space as we are not building any string as we did in the previous approach and therefore the total space complexity is equal to `O(1)`.
+    We don't require any extra space as we are not building any string as we did in the previous approach and therefore the total space complexity is equal to `O(1)`.
