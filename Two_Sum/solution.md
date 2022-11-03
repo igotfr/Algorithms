@@ -1,3 +1,4 @@
+# Video Solution
 # Solution Article
 ## Approach 1: Brute Force
 ### Algorithm
