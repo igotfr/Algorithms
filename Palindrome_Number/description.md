@@ -1,4 +1,4 @@
-Given an integer `x`, return `true` if `x` is palindrome integer.
+Given an integer `x`, return `true` if `x` is [palindrome](## "Palindrome\n An integer is a palindrome when it reads the same forward and backward. For example, 121 is a palindrome while 123 is not.") integer.
 
 An integer is a **palindrome** when it reads the same backward as forward.
 - For example, `121` is a palindrome while `123` is not.
