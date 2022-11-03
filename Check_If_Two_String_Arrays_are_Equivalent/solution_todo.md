@@ -85,8 +85,15 @@ We can keep two pointers, one pointing to the first character of the first strin
 
 4. Return true if the `word1Pointer` and `word2Pointer` has reached the end of array. This is important as it might happen that one of the list has no more strings but the other one still has some and in that case we must return false.
 
-![image](blob:https://leetcode.com/c1b8271a-d0e8-43c2-b01e-215b454c93cb)
+![image](https://user-images.githubusercontent.com/32280512/199819870-f30e4939-0061-4f20-b3fa-6726a68c1355.png)
 
+![image](https://user-images.githubusercontent.com/32280512/199820120-6620a8ee-a43f-48e8-bdd8-a75d55ef60c5.png)
+
+![image](https://user-images.githubusercontent.com/32280512/199820162-20dde271-4cbb-40bb-a466-dd44577dc950.png)
+
+![image](https://user-images.githubusercontent.com/32280512/199820212-96737d32-e264-4453-8dd2-15af203303f5.png)
+
+![image](https://user-images.githubusercontent.com/32280512/199820269-b0bf5635-38c7-4b9a-b6f3-b6a80d8b3154.png)
 
 ### Implementation
 #### C++
