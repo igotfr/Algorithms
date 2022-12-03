@@ -13,11 +13,10 @@ impl Solution {
         for i in 0..n {
             nums.push(nums[i]);
         }*/
+        return nums
 
         // Functional 2
         nums.extend(nums.clone());
-
-        // Iterative 1, Functinal 2
         return nums
     }*/
 }
