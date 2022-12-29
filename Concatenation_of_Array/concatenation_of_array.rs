@@ -15,7 +15,7 @@ impl Solution {
         }*/
         return nums
 
-        // Functional 2
+        // Functional 1
         nums.extend(nums.clone());
         return nums
     }*/
