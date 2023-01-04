@@ -1,7 +1,10 @@
 ## Math
 ### Easy
 - 2235 Add_Two_Integers
+- [X] 2413 Smallest_Even_Multiple
 - 9 Palindrome_Number (1 Functional, 1 Iterative)
+- [X] 1281 Subtract_the_Product_and_Sum_of_Digits_of_an_Integer (2 Functional, 1 Iterative with Functional)
+- [X] 2160 Minimum_Sum_of_Four_Digit_Number_After_Splitting_Digits (1 Functional, 1 Iterative with Functional)
 
 ## String
 ### Easy
