@@ -5,19 +5,23 @@
 - [X] 1281 Subtract_the_Product_and_Sum_of_Digits_of_an_Integer (2 Functional, 1 Iterative with Functional)
 - [X] 2469 Convert_the_Temperature
 - [X] 492 Construct_the_Rectangle
-- [X] 507 Perfect Number
+- [X] 507 Perfect_Number
+- [X] 2520 Count_the_Digits_That_Divide_a_Number (1 Funtional, 2 Iterative)
 
 ## Math & Number Theory
+### Easy
 - [X] 2413 Smallest_Even_Multiple
 
 ## Math & Bit Manipulation
-- [X] 1342 Number of Steps to Reduce a Number to Zero
+### Easy
+- [X] 1342 Number_of_Steps_to_Reduce_a_Number_to_Zero
 
 ## Math & Bit Manipulation & Recursion
 ### Easy
 - [X] 231 Power_of_Two
 
 ## Math & Greedy & Sorting
+### Easy
 - [X] 2160 Minimum_Sum_of_Four_Digit_Number_After_Splitting_Digits (1 Functional, 1 Iterative with Functional)
 
 ## Math & Hash Table & Two Pointers
