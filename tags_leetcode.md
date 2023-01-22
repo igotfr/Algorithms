@@ -7,6 +7,7 @@
 - [X] 492 Construct_the_Rectangle
 - [X] 507 Perfect_Number
 - [X] 2520 Count_the_Digits_That_Divide_a_Number (1 Funtional, 2 Iterative)
+- [X] 2525 Categorize_Box_According_to_Criteria
 
 ## Math & Number Theory
 ### Easy
