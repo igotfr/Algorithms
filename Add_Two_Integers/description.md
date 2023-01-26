@@ -16,3 +16,8 @@ Given two integers `num1` and `num2`, return *the **sum** of the two integers*.
 
 **Constraints:**
 - `-100 <= num1, num2 <= 100`
+
+___
+Related Topics
+
+<button name="button" onclick="https://leetcode.com/tag/math/">Math</button>
