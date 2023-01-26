@@ -30,3 +30,8 @@ An integer is a **palindrome** when it reads the same backward as forward.
 - `-2³¹ <= x <= 2³¹ - 1`
 
 **Follow up:** Could you solve it without converting the integer to a string?
+
+___
+Related Topics
+
+<button onclick="https://leetcode.com/tag/math/">Math</button>
