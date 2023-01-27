@@ -32,7 +32,7 @@ Only 1771 contains an even number of digits.
 ___
 Similar Questions
 
-Finding 3-Digit Even Numbers
+Finding 3-Digit Even Numbers Easy
 
 ___
 Related Topics
