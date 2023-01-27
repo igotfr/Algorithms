@@ -48,8 +48,8 @@ Count the Digits That Divide a Number Easy
 ___
 Related Topics
 
-Hash Table
+<button name="button" onclick="https://leetcode.com/tag/hash-table/">Hash Table</button>
 
-Math
+<button name="button" onclick="https://leetcode.com/tag/math/">Math</button>
 
-Two Pointers
+<button name="button" onclick="https://leetcode.com/tag/two-pointers/">Two Pointers</button>
