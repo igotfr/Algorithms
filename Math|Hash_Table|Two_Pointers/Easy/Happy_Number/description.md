@@ -27,3 +27,29 @@ Return `true` *if* `n` *is a happy number, and* `false` *if not*.
 
 **Constraints:**
 - <code>1 <= n <= 2<sup>31</sup> - 1</code>
+
+___
+Similar Questions
+
+Linked List Cycle Easy
+
+Add Digits Easy
+
+Ugly Number Easy
+
+Sum of Digits of String After Convert Easy
+
+Minimum Addition to Make Integer Beautiful Medium
+
+Smallest Value After Replacing With Sum of Prime Factors Medium
+
+Count the Digits That Divide a Number Easy
+
+___
+Related Topics
+
+Hash Table
+
+Math
+
+Two Pointers
