@@ -31,6 +31,15 @@ An integer is a **palindrome** when it reads the same backward as forward.
 
 **Follow up:** Could you solve it without converting the integer to a string?
 
+## Hint
+Beware of overflow when you reverse the integer.
+
+___
+Similar Questions
+Palindrome Linked List             Easy
+Find Palindrome With Fixed Length  Medium
+Strictly Palindromic Number        Medium
+
 ___
 Related Topics
 
