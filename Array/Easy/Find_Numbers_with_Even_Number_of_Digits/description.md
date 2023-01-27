@@ -37,4 +37,4 @@ Finding 3-Digit Even Numbers
 ___
 Related Topics
 
-<button name="button" onclick="https://leetcode.com/tag/math/">Math</button>
+<button name="button" onclick="https://leetcode.com/tag/array/">Array</button>
