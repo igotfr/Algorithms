@@ -26,3 +26,11 @@ Return *the array* `ans`.
 - `n == nums.length`
 - `1 <= n <= 1000`
 - `1 <= nums[i] <= 1000`
+
+## Hint
+Build an array of size 2 * n and assign num[i] to ans[i] and ans[i + n]
+
+___
+Related Topics
+
+<button name="button" onclick="https://leetcode.com/tag/math/">Math</button>
