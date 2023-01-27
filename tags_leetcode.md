@@ -1,6 +1,10 @@
+# TODO for ALL
+corrigir Similar Questions
+corrigir Related Topics
+
 ## Math
 ### Easy
-- 2235 Add_Two_Integers todo: corrigir Related Topics
+- 2235 Add_Two_Integers
 - 9 Palindrome_Number (2 Functional, 1 Iterative) todo: corrigir hover em palindrome
 - [X] 1281 Subtract_the_Product_and_Sum_of_Digits_of_an_Integer (2 Functional, 1 Iterative with Functional)
 - [X] 2469 Convert_the_Temperature
