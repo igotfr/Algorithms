@@ -24,3 +24,17 @@ Only 1771 contains an even number of digits.
 **Constraints:**
 - `1 <= nums.length <= 500`
 - `1 <= nums[i] <= 105`
+
+## Hint
+1. How to compute the number of digits of a number ?
+2. Divide the number by 10 again and again to get the number of digits.
+
+___
+Similar Questions
+
+Finding 3-Digit Even Numbers
+
+___
+Related Topics
+
+<button name="button" onclick="https://leetcode.com/tag/math/">Math</button>
