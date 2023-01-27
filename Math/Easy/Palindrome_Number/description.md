@@ -36,8 +36,11 @@ Beware of overflow when you reverse the integer.
 
 ___
 Similar Questions
+
 Palindrome Linked List             Easy
+
 Find Palindrome With Fixed Length  Medium
+
 Strictly Palindromic Number        Medium
 
 ___
