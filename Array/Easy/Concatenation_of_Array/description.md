@@ -33,4 +33,4 @@ Build an array of size 2 * n and assign num[i] to ans[i] and ans[i + n]
 ___
 Related Topics
 
-<button name="button" onclick="https://leetcode.com/tag/math/">Math</button>
+<button name="button" onclick="https://leetcode.com/tag/array/">Array</button>
