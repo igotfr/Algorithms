@@ -29,3 +29,19 @@ The strings are the same, so return true.
 - `1 <= word1[i].length, word2[i].length <= 10³`
 - `1 <= sum(word1[i].length), sum(word2[i].length) <= 10³`
 - `word1[i]` and `word2[i]` consist of lowercase letters.
+
+## Hint
+1. Concatenate all strings in the first array into a single string in the given order, the same for the second array.
+2. Both arrays represent the same string if and only if the generated strings are the same.
+
+___
+Similar Questions
+
+Check if an Original String Exists Given Two Encoded Strings Hard
+
+___
+Related Topics
+
+<button name="button" onclick="https://leetcode.com/tag/array/">Array</button>
+
+<button name="button" onclick="https://leetcode.com/tag/string/">String</button>
